@@ -1,0 +1,151 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+   font-family: 'AnkeRegular' !important;
+   font-weight: normal;
+   font-style: normal;
+   background-color: #EEEEEE;
+}
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-image: linear-gradient(to bottom right, #19D3DA, #1969da);
+  color: white;
+  cursor: pointer; 
+  padding: 15px;
+  border-radius: 10px; 
+  font-size: 18px; 
+}
+/********** navbar **********/
+nav h1{
+	cursor: default;
+}
+.nav-link:hover{
+	color: #19D3DA !important;
+}
+.navbar{
+	font-size:2rem;
+	padding: 2% 15% 2% 15%;
+}
+nav{
+	background-image: linear-gradient(to bottom right, #50555e, #373A40) !important;
+}
+.phrase{
+	text-shadow: 3px 0 5px #686D76;
+	background-image: linear-gradient(to bottom right, #19D3DA, #1969da);
+	left: 0;
+	right: 0;
+	padding: 11% 0 11% 0;
+}
+/********* About Me **********/
+#self{
+	box-shadow: 10px 0px 50px black;
+	background-image: linear-gradient(to  bottom right, white, #e1e3e1);
+	border-radius: 10px;
+}
+.about{
+	padding-left: 2% !important;
+}
+#personal{
+	width: 50%;
+}
+.italic{
+	font-style: italic;
+}
+#myChart{
+	width: 100% !important;
+	height: auto !important;
+ }
+/********* Contact **********/
+#more{
+	background-image: linear-gradient(to right, #50555e, #373A40);
+	color: #EEEEEE;
+	padding: 10% 0 10% 0;
+	width: 100%;
+	left: 0 !important;
+	right: 0 !important;
+}
+.pos{
+	background-color: #EEEEEE;
+	box-shadow: 10px 0px 50px black;
+	border-radius: 10px;
+}
+.icon{
+	width: 15% !important;
+	height: auto !important;
+}
+.icon2{
+	width: 50% !important;
+	height: auto !important;
+}
+.card1{
+	background-image: linear-gradient(to bottom right, #19D3DA, #1969da);
+	bottom: 10%;
+}
+.card2{
+	background-image: linear-gradient(to bottom right, #19D3DA, #1969da);
+	bottom: 10%;
+}
+form button{
+	font-size: 90% !important;
+}
+.card-size1{
+	font-size: 120% !important;
+}
+.card-size2{
+	font-size: 3rem !important;
+	padding-top: 10% !important;
+}
+.card{
+	border-radius: 20px !important;
+	color: white;
+}
+.card a img{
+	box-shadow: 10px 0 40px #686D76;
+	border-radius: 20px;
+}
+.b-par{
+	padding-top: 10% !important;
+	padding-bottom: 10% !important;
+}
+#submit{
+	color: #1969da !important;
+	font-weight: bold;
+}
+#submit:hover{
+	background-color: #b8b8b8 !important;
+}
+.footer{
+	background-image: linear-gradient(to right, #50555e, #373A40);
+	font-size: 2rem;
+	color: white;
+}
+.text{
+	text-shadow: 3px 0px 0px blue, -3px -2px 0px white;
+}
+.hr1{
+	width: 70% !important;
+}
+.hr2{
+	width: 40% !important;
+}
+.pad{
+	margin-right: 10% !important;
+	margin-left: 10% !important;
+	width: 14% !important;
+	height: auto;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.mainpg{
+ line-height: 150% !important;
+ font-size: 4rem !important;
+
+}
