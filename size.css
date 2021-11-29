@@ -1,0 +1,97 @@
+@media screen and (max-width: 992px){
+	#card1{
+		margin-left: -25% !important;
+	}
+	#card2{
+		margin-right: -25% !important;
+	}
+	#rocket{
+		margin-top: 0 !important;
+	}
+}
+@media screen and (max-width: 767px){
+	#card1{
+		margin-left: 0 !important;
+		margin-top: 7% !important;
+	}
+	#card2{
+		margin-right: 0 !important;
+		margin-top: 5% !important;
+	}
+	.end{
+		width: 10% !important;
+		height: auto !important;
+	}
+	hr{
+		width: 450px !important;
+	}
+}
+@media screen and (max-width: 575px){
+	#myBtn{
+		right: 25%;
+	}
+	.navbar{
+		padding-left: 0;
+	}
+	.footer{
+		font-size: 140%;
+	}
+	.end{
+		width: 15% !important;
+		height: auto !important;
+	}
+	.skill{
+		width: 30% !important;
+		height: auto !important;
+	}
+	#card1{
+		margin-left: 0 !important;
+		margin-top: 10% !important;
+	}
+	.navbar-toggler-icon{
+    	font-size: 0.7em;
+ 	}
+ 	#more{
+ 		text-align: center;
+ 	}
+ 	.chart-container{
+ 		width: 200% !important;
+ 		height: auto !important;
+ 		position: relative;
+ 		font-size: 20% !important;
+ 	}
+ 	#rocket{
+		transform: rotate(315deg) !important;
+		padding: 5% 0 5% 0;
+		height: auto !important;
+	}
+	.phrase{
+		line-height: 1 !important;
+	}
+}
+@media screen and (max-width:300px) {
+	.navbar{
+		padding-left: 0;
+	}
+	.navbar h1{
+		font-size: 90%;
+	}
+	.navbar img{
+		width: 20%;
+		height: auto !important;
+	}
+	.skill{
+		width: 33% !important;
+		height: auto !important;
+	}
+	#card1{
+		margin-left: 0 !important;
+		margin-top: 20% !important;
+	}
+	#info{
+		font-size: 100% !important;
+	}
+	#RD{
+		font-size: 2rem !important;
+	}
+}

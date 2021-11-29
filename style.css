@@ -16,12 +16,17 @@ body{
   z-index: 99; 
   border: none; 
   outline: none; 
-  background-image: linear-gradient(to bottom right, #19D3DA, #1969da);
   color: white;
   cursor: pointer; 
   padding: 15px;
   border-radius: 10px; 
   font-size: 18px; 
+}
+.grey-fade{
+	background-image: linear-gradient(to bottom right, #50555e, #373A40) !important;
+}
+.blue-fade{
+	background-image: linear-gradient(to bottom right, #19D3DA, #1969da);
 }
 /********** navbar **********/
 nav h1{
@@ -34,15 +39,25 @@ nav h1{
 	font-size:2rem;
 	padding: 2% 15% 2% 15%;
 }
-nav{
-	background-image: linear-gradient(to bottom right, #50555e, #373A40) !important;
-}
-.phrase{
+/********* First Look *********/
+#first-look{
 	text-shadow: 3px 0 5px #686D76;
-	background-image: linear-gradient(to bottom right, #19D3DA, #1969da);
+	background-image: linear-gradient(to top right, #19D3DA, #002d75);
 	left: 0;
 	right: 0;
-	padding: 11% 0 11% 0;
+}
+.phrase{
+	line-height: 2 !important;
+	font-size: 4rem !important;
+}
+#rocket{
+	margin-top: 50px !important;
+}
+#mars{
+	padding-bottom: 10%;
+}
+#earth{
+	padding-top: 10%;
 }
 /********* About Me **********/
 #self{
@@ -53,9 +68,6 @@ nav{
 .about{
 	padding-left: 2% !important;
 }
-#personal{
-	width: 50%;
-}
 .italic{
 	font-style: italic;
 }
@@ -63,10 +75,13 @@ nav{
 	width: 100% !important;
 	height: auto !important;
  }
+ .github{
+	width: 20% !important;
+	height: auto !important;
+}
 /********* Contact **********/
 #more{
-	background-image: linear-gradient(to right, #50555e, #373A40);
-	color: #EEEEEE;
+	color: white;
 	padding: 10% 0 10% 0;
 	width: 100%;
 	left: 0 !important;
@@ -85,19 +100,11 @@ nav{
 	width: 50% !important;
 	height: auto !important;
 }
-.card1{
-	background-image: linear-gradient(to bottom right, #19D3DA, #1969da);
-	bottom: 10%;
-}
-.card2{
-	background-image: linear-gradient(to bottom right, #19D3DA, #1969da);
-	bottom: 10%;
-}
 form button{
 	font-size: 90% !important;
 }
 .card-size1{
-	font-size: 120% !important;
+	font-size: 2rem !important;
 }
 .card-size2{
 	font-size: 3rem !important;
@@ -106,12 +113,9 @@ form button{
 .card{
 	border-radius: 20px !important;
 	color: white;
+	bottom: 10%;
 }
-.card a img{
-	box-shadow: 10px 0 40px #686D76;
-	border-radius: 20px;
-}
-.b-par{
+.end-para{
 	padding-top: 10% !important;
 	padding-bottom: 10% !important;
 }
@@ -123,29 +127,14 @@ form button{
 	background-color: #b8b8b8 !important;
 }
 .footer{
-	background-image: linear-gradient(to right, #50555e, #373A40);
 	font-size: 2rem;
 	color: white;
 }
-.text{
-	text-shadow: 3px 0px 0px blue, -3px -2px 0px white;
+.end-link{
+	width: 5% !important;
+	height: 5% !important;
 }
-.hr1{
-	width: 70% !important;
-}
-.hr2{
-	width: 40% !important;
-}
-.pad{
-	margin-right: 10% !important;
-	margin-left: 10% !important;
-	width: 14% !important;
-	height: auto;
-	padding-top: 2%;
-	padding-bottom: 2%;
-}
-.mainpg{
- line-height: 150% !important;
- font-size: 4rem !important;
-
+.end{
+	width: 5% !important;
+	height: auto !important;
 }
