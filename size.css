@@ -68,6 +68,24 @@
 	.phrase{
 		line-height: 1 !important;
 	}
+
+}
+@media screen and (max-width: 420px){
+	#earth{
+		width: 100% !important;
+		height: auto !important;
+	}
+	#mars{
+		width: 100% !important;
+		height: auto !important;
+	}
+	#rocket{
+		width: 30% !important;
+		height: auto !important;
+	}
+	.phrase{
+		font-size: 300% !important;
+	}
 }
 @media screen and (max-width:300px) {
 	.navbar{

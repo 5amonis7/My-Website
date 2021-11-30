@@ -25,6 +25,7 @@ const config = new Chart(ctx, {
 		  	}]
 		  },
 		  options: {
+		  	maintianAspectRatio: false,
 		  	plugins: {
 		  		deferred:{
 					xOffset: 150,
@@ -34,7 +35,7 @@ const config = new Chart(ctx, {
 		  		legend:{
 		  			labels:{
 		  				font:{
-		  					size: 30
+		  					size: 15
 		  				}
 		  			}
 		  		}

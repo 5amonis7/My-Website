@@ -1,2 +1,2 @@
 # My-Website
-A personal website of mine to practice and show my progress in my studies.
+This is my first application that I created, here I have reacreated the code and few times for practice and eventually come out with a finished product with more knowledge than I started.
