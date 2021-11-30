@@ -60,6 +60,10 @@ nav h1{
 	padding-top: 10%;
 }
 /********* About Me **********/
+hr{
+	margin-right: 10px !important;
+	width: 60% !important;
+}
 #self{
 	box-shadow: 10px 0px 50px black;
 	background-image: linear-gradient(to  bottom right, white, #e1e3e1);
@@ -72,11 +76,18 @@ nav h1{
 	font-style: italic;
 }
 #myChart{
-	width: 100% !important;
-	height: auto !important;
+	padding-top: 5%;
+ }
+ .skill-text{
+ 	text-align: center;
+ 	margin-top: 5%;
  }
  .github{
-	width: 20% !important;
+	width: 40% !important;
+	height: auto !important;
+}
+.skill{
+	width: 40% !important;
 	height: auto !important;
 }
 /********* Contact **********/

@@ -1,10 +1,7 @@
-
-
 const ctx = document.getElementById('myChart').getContext('2d');
-
 const config = new Chart(ctx, {
 
-		  type: 'pie',
+		  type: 'bar',
 		  data: {
 		  	labels:['HTML', 'CSS', 'JS', 'Python'],
 		  	datasets:[{
@@ -17,35 +14,51 @@ const config = new Chart(ctx, {
 		  		],
 		  		backgroundColor:[
 		  		'#00f2ff',
-		  		'#03bafc',
 		  		'#0095ff',
+		  		'#0074b8',
 		  		'#030ba1'
-		  		]
+		  		],
+		  		borderRadius: 15,
 
 		  	}]
 		  },
 		  options: {
-		  	maintianAspectRatio: false,
+		  	barThickness: 100,
 		  	plugins: {
-		  		deferred:{
-					xOffset: 150,
-					yOffset: 150,
-					delay: 3000
-			},
 		  		legend:{
-		  			labels:{
-		  				font:{
-		  					size: 15
-		  				}
+		  			display: false,
+		  		},
+		  		title: {
+		  			display: true,
+		  			text: 'Experience',
+		  			font:{
+		  				size: 16,
 		  			}
 		  		}
 		  	},
 		  	scales: {
+		  		y:{
+		  			suggestedMin: 0,
+		  			suggestedMax: 100,
+		  			ticks:{
+		  				font:{
+		  					size: 16,
+		  				}
+		  			}
+		  		},
+		  		x:{
+		  			ticks:{
+
+		  				font: {
+		  					size: 16,
+		  				}
+		  			}
+		  		}
 		  	},
 		  	aspectRatio: 2,
 		  	layout:{
 		  		padding: 20,
 		  	},	
-		} 		 
+		} 		 	 
 
 	});
