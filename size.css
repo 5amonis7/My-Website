@@ -8,6 +8,12 @@
 	#rocket{
 		margin-top: 0 !important;
 	}
+	#about{
+		margin-left: 0 !important;
+	}
+	#contact{
+		margin-left: 0 !important;
+	}
 }
 @media screen and (max-width: 767px){
 	#card1{
