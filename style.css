@@ -39,6 +39,12 @@ nav h1{
 	font-size:2rem;
 	padding: 2% 15% 2% 15%;
 }
+#about{
+	margin-left: 10% !important;
+}
+#contact{
+	margin-left: 10% !important;
+}
 /********* First Look *********/
 #first-look{
 	text-shadow: 3px 0 5px #686D76;
@@ -60,6 +66,15 @@ nav h1{
 	padding-top: 10%;
 }
 /********* About Me **********/
+.box{
+	background-color: #D7D7D7;
+	border-radius: 10px;
+	margin-left: 10px !important;
+}
+hr{
+	margin-right: 10px !important;
+	width: 60% !important;
+}
 #self{
 	box-shadow: 10px 0px 50px black;
 	background-image: linear-gradient(to  bottom right, white, #e1e3e1);
@@ -72,11 +87,18 @@ nav h1{
 	font-style: italic;
 }
 #myChart{
-	width: 100% !important;
-	height: auto !important;
+	padding-top: 5%;
+ }
+ .skill-text{
+ 	text-align: center;
+ 	margin-top: 5%;
  }
  .github{
-	width: 20% !important;
+	width: 40% !important;
+	height: auto !important;
+}
+.skill{
+	width: 40% !important;
 	height: auto !important;
 }
 /********* Contact **********/
@@ -126,7 +148,7 @@ form button{
 #submit:hover{
 	background-color: #b8b8b8 !important;
 }
-.footer{
+#footer{
 	font-size: 2rem;
 	color: white;
 }

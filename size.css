@@ -8,6 +8,12 @@
 	#rocket{
 		margin-top: 0 !important;
 	}
+	#about{
+		margin-left: 0 !important;
+	}
+	#contact{
+		margin-left: 0 !important;
+	}
 }
 @media screen and (max-width: 767px){
 	#card1{
@@ -27,9 +33,7 @@
 	}
 }
 @media screen and (max-width: 575px){
-	#myBtn{
-		right: 25%;
-	}
+
 	.navbar{
 		padding-left: 0;
 	}
@@ -85,6 +89,12 @@
 	}
 	.phrase{
 		font-size: 300% !important;
+	}
+	.logo{
+		font-size: 120% !important;
+	}
+	.navbar button{
+		margin-left: 3%;
 	}
 }
 @media screen and (max-width:300px) {
