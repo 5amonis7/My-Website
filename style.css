@@ -148,7 +148,7 @@ form button{
 #submit:hover{
 	background-color: #b8b8b8 !important;
 }
-.footer{
+#footer{
 	font-size: 2rem;
 	color: white;
 }
