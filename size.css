@@ -31,6 +31,9 @@
 	hr{
 		width: 450px !important;
 	}
+	#first-look{
+		background-color: black !important;
+	}
 }
 @media screen and (max-width: 575px){
 
@@ -95,6 +98,21 @@
 	}
 	.navbar button{
 		margin-left: 3%;
+	}
+}
+@media screen and (max-width: 400px){
+	#stars2{
+		opacity: 0;
+	}
+	#stars5{
+		opacity: 0;
+	}	
+	#stars9{
+		opacity: 0;
+	}
+	#first-look{
+		background-image: linear-gradient(to top, #19D3DA, #002d75, black);
+
 	}
 }
 @media screen and (max-width:300px) {

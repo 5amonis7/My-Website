@@ -48,26 +48,30 @@ nav h1{
 /********* First Look *********/
 #first-look{
 	text-shadow: 3px 0 5px #686D76;
-	background-image: linear-gradient(to top right, #19D3DA, #002d75);
+	background-image: linear-gradient(to top right, #19D3DA, #002d75, black);
 	left: 0;
 	right: 0;
 }
 .phrase{
 	line-height: 2 !important;
 	font-size: 4rem !important;
+	color: #FFFFFF !important;
 }
 #rocket{
 	margin-top: 50px !important;
+	z-index: 1;
 }
 #mars{
 	padding-bottom: 10%;
+	z-index: 1;
 }
 #earth{
 	padding-top: 10%;
+	z-index: 1;
 }
 /********* About Me **********/
 .box{
-	background-color: #D7D7D7;
+	background-image: linear-gradient(to right, #EEEEEE, #e1e3e1);
 	border-radius: 10px;
 	margin-left: 10px !important;
 }
@@ -159,4 +163,109 @@ form button{
 .end{
 	width: 5% !important;
 	height: auto !important;
+}
+
+
+
+
+.star{
+	background-color: white;
+	border-radius: 100%;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+}
+#stars{
+	top: 20%;
+	left: 30%;
+	animation-name: twinkle;
+	animation-duration: 1.1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+#stars2{
+	top: 80%;
+	left: 50%;
+	animation-name: twinkle;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+}
+#stars3{
+	top: 40%;
+	left: 80%;
+	animation-name: twinkle;
+	animation-duration: 0.9s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+#stars4{
+	top: 70%;
+	left: 10%;
+	animation-name: twinkle;
+	animation-duration: 1.1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+}
+#stars5{
+	top: 90%;
+	left: 90%;
+	animation-name: twinkle;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+#stars6{
+	top: 30%;
+	left: 50%;
+	animation-name: twinkle;
+	animation-duration: 0.9s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+}
+#stars7{
+	top: 30%;
+	left: 5%;
+	animation-name: twinkle;
+	animation-duration: 1.1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+#stars8{
+	top: 15%;
+	left: 95%;
+	animation-name: twinkle;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+}
+#stars9{
+	top: 95%;
+	left: 70%;
+	animation-name: twinkle;
+	animation-duration: 0.9s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+#stars10{
+	top: 40%;
+	left: 20%;
+	animation-name: twinkle;
+	animation-duration: 1.1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-out;
+}
+@keyframes twinkle{
+	0%{
+		width: 2px;
+		height: 2px;
+	}
+	50%{
+		width: 5px;
+		height: 5px;
+	}
+	100%{
+		width: 2px;
+		height: 2px;
+	}
 }
